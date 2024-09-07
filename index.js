@@ -36,7 +36,7 @@ app.listen(port, () => {
 
 
 
-const statusMessages = ["Features coming soon!","Soon im the best Pulling Bot!"]; /** do what you want here*/
+const statusMessages = ["/buy"]; /** do what you want here*/
 
 
 let currentIndex = 0;
