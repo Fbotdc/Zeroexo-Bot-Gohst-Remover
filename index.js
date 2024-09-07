@@ -94,7 +94,7 @@ client.once('ready', () => {
 
   setInterval(() => {
     updateStatusAndSendMessages();
-  }, 0);
+  }, 5000);
 });
 
 login();
