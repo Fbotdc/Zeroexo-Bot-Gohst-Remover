@@ -72,7 +72,7 @@ function updateStatusAndSendMessages() {
 
   client.user.setPresence({
     activities: [{ name: currentStatus, type: ActivityType.Custom}], /** goes with everything but when you play comes as a wet with botgohst*/
-    status: 'dnd', /***Status that the bot should have: Online,dnd,invisible,idle*/
+    status: 'idle', /***Status that the bot should have: Online,dnd,invisible,idle*/
   });
 
 
